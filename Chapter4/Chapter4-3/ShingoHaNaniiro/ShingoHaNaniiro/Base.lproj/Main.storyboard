@@ -27,22 +27,22 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="signal_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="fnr-N4-TIM">
                                 <rect key="frame" x="107" y="119" width="265" height="82"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="しんごうのいろはなにいろ？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP0-mm-FTe">
-                                <rect key="frame" x="84" y="45" width="312" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しんごうのいろはなにいろ？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP0-mm-FTe">
+                                <rect key="frame" x="82" y="45" width="316.5" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CA3-x0-po3">
-                                <rect key="frame" x="204" y="234" width="72" height="81"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CA3-x0-po3">
+                                <rect key="frame" x="204" y="235" width="72" height="80"/>
                                 <state key="normal" image="btn_yellow_off.png"/>
                                 <state key="highlighted" image="btn_yellow_on.png"/>
                                 <connections>
                                     <action selector="yellowBtnPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EaJ-pp-NKd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naW-XW-ipB">
-                                <rect key="frame" x="346" y="234" width="72" height="81"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naW-XW-ipB">
+                                <rect key="frame" x="346" y="235" width="71" height="80"/>
                                 <state key="normal" image="btn_red_off.png"/>
                                 <state key="highlighted" image="btn_red_on.png"/>
                                 <connections>
@@ -59,8 +59,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hZ-VP-m4x">
-                                <rect key="frame" x="62" y="234" width="72" height="81"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hZ-VP-m4x">
+                                <rect key="frame" x="63" y="235" width="71" height="80"/>
                                 <state key="normal" image="btn_blue_off.png"/>
                                 <state key="highlighted" image="btn_blue_on.png"/>
                                 <connections>
