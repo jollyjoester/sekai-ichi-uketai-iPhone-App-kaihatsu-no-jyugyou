@@ -20,17 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func blueBtnPushed(sender: AnyObject) {
+    @IBAction func blueBtnPushed(_ sender: AnyObject) {
         resultLabel.text = "しんごうはあおいろ!"
-        resultLabel.textColor = UIColor.blueColor()
+        resultLabel.textColor = UIColor.blue
     }
-    @IBAction func yellowBtnPushed(sender: AnyObject) {
+    @IBAction func yellowBtnPushed(_ sender: AnyObject) {
         resultLabel.text = "しんごうはきいろ!"
-        resultLabel.textColor = UIColor.yellowColor()
+        resultLabel.textColor = UIColor.yellow
     }
-    @IBAction func redBtnPushed(sender: AnyObject) {
+    @IBAction func redBtnPushed(_ sender: AnyObject) {
         resultLabel.text = "しんごうはあかいろ!"
-        resultLabel.textColor = UIColor.redColor()
+        resultLabel.textColor = UIColor.red
     }
 }
 

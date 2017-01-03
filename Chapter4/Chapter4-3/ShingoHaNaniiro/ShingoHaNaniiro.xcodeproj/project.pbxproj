@@ -261,13 +261,16 @@
 				TargetAttributes = {
 					9EDF4BDC1C0D978000F90BD1 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 					};
 					9EDF4BF01C0D978000F90BD1 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 9EDF4BDC1C0D978000F90BD1;
 					};
 					9EDF4BFB1C0D978000F90BD1 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 9EDF4BDC1C0D978000F90BD1;
 					};
 				};
@@ -489,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.ShingoHaNaniiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -500,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.ShingoHaNaniiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -511,6 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.ShingoHaNaniiroTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShingoHaNaniiro.app/ShingoHaNaniiro";
 			};
 			name = Debug;
@@ -523,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.ShingoHaNaniiroTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShingoHaNaniiro.app/ShingoHaNaniiro";
 			};
 			name = Release;
@@ -534,6 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.ShingoHaNaniiroUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ShingoHaNaniiro;
 				USES_XCTRUNNER = YES;
 			};
@@ -546,6 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.ShingoHaNaniiroUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ShingoHaNaniiro;
 				USES_XCTRUNNER = YES;
 			};
@@ -570,6 +579,7 @@
 				9EDF4C071C0D978000F90BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDF4C081C0D978000F90BD1 /* Build configuration list for PBXNativeTarget "ShingoHaNaniiroTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +588,7 @@
 				9EDF4C0A1C0D978000F90BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EDF4C0B1C0D978000F90BD1 /* Build configuration list for PBXNativeTarget "ShingoHaNaniiroUITests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +597,7 @@
 				9EDF4C0D1C0D978000F90BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

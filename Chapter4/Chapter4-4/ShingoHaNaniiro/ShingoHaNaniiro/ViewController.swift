@@ -37,9 +37,9 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func blueBtnPushed(sender: AnyObject) {
+    @IBAction func blueBtnPushed(_ sender: AnyObject) {
 //        resultLabel.text = "しんごうはあおいろ!"
-        resultLabel.textColor = UIColor.blueColor()
+        resultLabel.textColor = UIColor.blue
         
         //青信号についての判定処理
         if signalImageView.image == blueImage {
@@ -50,8 +50,8 @@ class ViewController: UIViewController {
         randomSignal()
     }
     
-    @IBAction func yellowBtnPushed(sender: AnyObject) {
-        resultLabel.textColor = UIColor.yellowColor()
+    @IBAction func yellowBtnPushed(_ sender: AnyObject) {
+        resultLabel.textColor = UIColor.yellow
         
         //黄信号についての判定処理をコーディング
         if signalImageView.image == yellowImage {
@@ -62,8 +62,8 @@ class ViewController: UIViewController {
         //randomSignalメソッドを実行
         randomSignal()
     }
-    @IBAction func redBtnPushed(sender: AnyObject) {
-        resultLabel.textColor = UIColor.redColor()
+    @IBAction func redBtnPushed(_ sender: AnyObject) {
+        resultLabel.textColor = UIColor.red
         
         //赤信号についての判定処理をコーディング
         if signalImageView.image == redImage {
