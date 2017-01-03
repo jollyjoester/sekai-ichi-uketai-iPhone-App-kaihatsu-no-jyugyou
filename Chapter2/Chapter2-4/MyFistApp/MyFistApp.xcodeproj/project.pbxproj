@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC627541C16D6A800AF8A89 /* Chapter2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC627531C16D6A800AF8A89 /* Chapter2.png */; };
+		9ECC46D11C12E0E90039DE4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC46D01C12E0E90039DE4D /* AppDelegate.swift */; };
+		9ECC46D31C12E0E90039DE4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC46D21C12E0E90039DE4D /* ViewController.swift */; };
+		9ECC46D61C12E0E90039DE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC46D41C12E0E90039DE4D /* Main.storyboard */; };
+		9ECC46D81C12E0E90039DE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC46D71C12E0E90039DE4D /* Assets.xcassets */; };
+		9ECC46DB1C12E0E90039DE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC46D91C12E0E90039DE4D /* LaunchScreen.storyboard */; };
+		9ECC46E61C12E0EA0039DE4D /* MyFistAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC46E51C12E0EA0039DE4D /* MyFistAppTests.swift */; };
+		9ECC46F11C12E0EA0039DE4D /* MyFistAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC46F01C12E0EA0039DE4D /* MyFistAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ECC46E21C12E0EA0039DE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECC46C51C12E0E90039DE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECC46CC1C12E0E90039DE4D;
+			remoteInfo = MyFistApp;
+		};
+		9ECC46ED1C12E0EA0039DE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECC46C51C12E0E90039DE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECC46CC1C12E0E90039DE4D;
+			remoteInfo = MyFistApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EC627531C16D6A800AF8A89 /* Chapter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chapter2.png; sourceTree = "<group>"; };
+		9ECC46CD1C12E0E90039DE4D /* MyFistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC46D01C12E0E90039DE4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ECC46D21C12E0E90039DE4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ECC46D51C12E0E90039DE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ECC46D71C12E0E90039DE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ECC46DA1C12E0E90039DE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ECC46DC1C12E0E90039DE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECC46E11C12E0EA0039DE4D /* MyFistAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFistAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC46E51C12E0EA0039DE4D /* MyFistAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFistAppTests.swift; sourceTree = "<group>"; };
+		9ECC46E71C12E0EA0039DE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECC46EC1C12E0EA0039DE4D /* MyFistAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFistAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC46F01C12E0EA0039DE4D /* MyFistAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFistAppUITests.swift; sourceTree = "<group>"; };
+		9ECC46F21C12E0EA0039DE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECC46CA1C12E0E90039DE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC46DE1C12E0EA0039DE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC46E91C12E0EA0039DE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECC46C41C12E0E90039DE4D = {
+			isa = PBXGroup;
+			children = (
+				9ECC46CF1C12E0E90039DE4D /* MyFistApp */,
+				9ECC46E41C12E0EA0039DE4D /* MyFistAppTests */,
+				9ECC46EF1C12E0EA0039DE4D /* MyFistAppUITests */,
+				9ECC46CE1C12E0E90039DE4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECC46CE1C12E0E90039DE4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECC46CD1C12E0E90039DE4D /* MyFistApp.app */,
+				9ECC46E11C12E0EA0039DE4D /* MyFistAppTests.xctest */,
+				9ECC46EC1C12E0EA0039DE4D /* MyFistAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECC46CF1C12E0E90039DE4D /* MyFistApp */ = {
+			isa = PBXGroup;
+			children = (
+				9ECC46D01C12E0E90039DE4D /* AppDelegate.swift */,
+				9ECC46D21C12E0E90039DE4D /* ViewController.swift */,
+				9ECC46D41C12E0E90039DE4D /* Main.storyboard */,
+				9ECC46D71C12E0E90039DE4D /* Assets.xcassets */,
+				9ECC46D91C12E0E90039DE4D /* LaunchScreen.storyboard */,
+				9ECC46DC1C12E0E90039DE4D /* Info.plist */,
+				9EC627531C16D6A800AF8A89 /* Chapter2.png */,
+			);
+			path = MyFistApp;
+			sourceTree = "<group>";
+		};
+		9ECC46E41C12E0EA0039DE4D /* MyFistAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECC46E51C12E0EA0039DE4D /* MyFistAppTests.swift */,
+				9ECC46E71C12E0EA0039DE4D /* Info.plist */,
+			);
+			path = MyFistAppTests;
+			sourceTree = "<group>";
+		};
+		9ECC46EF1C12E0EA0039DE4D /* MyFistAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECC46F01C12E0EA0039DE4D /* MyFistAppUITests.swift */,
+				9ECC46F21C12E0EA0039DE4D /* Info.plist */,
+			);
+			path = MyFistAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECC46CC1C12E0E90039DE4D /* MyFistApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC46F51C12E0EA0039DE4D /* Build configuration list for PBXNativeTarget "MyFistApp" */;
+			buildPhases = (
+				9ECC46C91C12E0E90039DE4D /* Sources */,
+				9ECC46CA1C12E0E90039DE4D /* Frameworks */,
+				9ECC46CB1C12E0E90039DE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFistApp;
+			productName = MyFistApp;
+			productReference = 9ECC46CD1C12E0E90039DE4D /* MyFistApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ECC46E01C12E0EA0039DE4D /* MyFistAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC46F81C12E0EA0039DE4D /* Build configuration list for PBXNativeTarget "MyFistAppTests" */;
+			buildPhases = (
+				9ECC46DD1C12E0EA0039DE4D /* Sources */,
+				9ECC46DE1C12E0EA0039DE4D /* Frameworks */,
+				9ECC46DF1C12E0EA0039DE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECC46E31C12E0EA0039DE4D /* PBXTargetDependency */,
+			);
+			name = MyFistAppTests;
+			productName = MyFistAppTests;
+			productReference = 9ECC46E11C12E0EA0039DE4D /* MyFistAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ECC46EB1C12E0EA0039DE4D /* MyFistAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC46FB1C12E0EA0039DE4D /* Build configuration list for PBXNativeTarget "MyFistAppUITests" */;
+			buildPhases = (
+				9ECC46E81C12E0EA0039DE4D /* Sources */,
+				9ECC46E91C12E0EA0039DE4D /* Frameworks */,
+				9ECC46EA1C12E0EA0039DE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECC46EE1C12E0EA0039DE4D /* PBXTargetDependency */,
+			);
+			name = MyFistAppUITests;
+			productName = MyFistAppUITests;
+			productReference = 9ECC46EC1C12E0EA0039DE4D /* MyFistAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECC46C51C12E0E90039DE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Haruyoshi Kuwamura";
+				TargetAttributes = {
+					9ECC46CC1C12E0E90039DE4D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9ECC46E01C12E0EA0039DE4D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9ECC46CC1C12E0E90039DE4D;
+					};
+					9ECC46EB1C12E0EA0039DE4D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9ECC46CC1C12E0E90039DE4D;
+					};
+				};
+			};
+			buildConfigurationList = 9ECC46C81C12E0E90039DE4D /* Build configuration list for PBXProject "MyFistApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECC46C41C12E0E90039DE4D;
+			productRefGroup = 9ECC46CE1C12E0E90039DE4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECC46CC1C12E0E90039DE4D /* MyFistApp */,
+				9ECC46E01C12E0EA0039DE4D /* MyFistAppTests */,
+				9ECC46EB1C12E0EA0039DE4D /* MyFistAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECC46CB1C12E0E90039DE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC627541C16D6A800AF8A89 /* Chapter2.png in Resources */,
+				9ECC46DB1C12E0E90039DE4D /* LaunchScreen.storyboard in Resources */,
+				9ECC46D81C12E0E90039DE4D /* Assets.xcassets in Resources */,
+				9ECC46D61C12E0E90039DE4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC46DF1C12E0EA0039DE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC46EA1C12E0EA0039DE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECC46C91C12E0E90039DE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECC46D31C12E0E90039DE4D /* ViewController.swift in Sources */,
+				9ECC46D11C12E0E90039DE4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC46DD1C12E0EA0039DE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECC46E61C12E0EA0039DE4D /* MyFistAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC46E81C12E0EA0039DE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECC46F11C12E0EA0039DE4D /* MyFistAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ECC46E31C12E0EA0039DE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECC46CC1C12E0E90039DE4D /* MyFistApp */;
+			targetProxy = 9ECC46E21C12E0EA0039DE4D /* PBXContainerItemProxy */;
+		};
+		9ECC46EE1C12E0EA0039DE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECC46CC1C12E0E90039DE4D /* MyFistApp */;
+			targetProxy = 9ECC46ED1C12E0EA0039DE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ECC46D41C12E0E90039DE4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECC46D51C12E0E90039DE4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ECC46D91C12E0E90039DE4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECC46DA1C12E0E90039DE4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ECC46F31C12E0EA0039DE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ECC46F41C12E0EA0039DE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECC46F61C12E0EA0039DE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFistApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.MyFistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ECC46F71C12E0EA0039DE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFistApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.MyFistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ECC46F91C12E0EA0039DE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFistAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.MyFistAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFistApp.app/MyFistApp";
+			};
+			name = Debug;
+		};
+		9ECC46FA1C12E0EA0039DE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFistAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.MyFistAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFistApp.app/MyFistApp";
+			};
+			name = Release;
+		};
+		9ECC46FC1C12E0EA0039DE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFistAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.MyFistAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFistApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9ECC46FD1C12E0EA0039DE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFistAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.MyFistAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFistApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECC46C81C12E0E90039DE4D /* Build configuration list for PBXProject "MyFistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC46F31C12E0EA0039DE4D /* Debug */,
+				9ECC46F41C12E0EA0039DE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC46F51C12E0EA0039DE4D /* Build configuration list for PBXNativeTarget "MyFistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC46F61C12E0EA0039DE4D /* Debug */,
+				9ECC46F71C12E0EA0039DE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC46F81C12E0EA0039DE4D /* Build configuration list for PBXNativeTarget "MyFistAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC46F91C12E0EA0039DE4D /* Debug */,
+				9ECC46FA1C12E0EA0039DE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC46FB1C12E0EA0039DE4D /* Build configuration list for PBXNativeTarget "MyFistAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC46FC1C12E0EA0039DE4D /* Debug */,
+				9ECC46FD1C12E0EA0039DE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECC46C51C12E0E90039DE4D /* Project object */;
+}

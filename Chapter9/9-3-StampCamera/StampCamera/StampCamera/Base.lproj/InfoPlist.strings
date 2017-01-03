@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  StampCamera
+
+  Created by SaChico on 2015/12/17.
+  Copyright © 2015年 Haruyoshi Kuwamura. All rights reserved.
+*/
+"CFBundleDisplayName" = "Stamp Camera";

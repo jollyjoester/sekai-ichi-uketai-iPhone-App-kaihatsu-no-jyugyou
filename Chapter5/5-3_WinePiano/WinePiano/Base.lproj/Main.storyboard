@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WinePiano" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="DoI-rU-2Tt">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                            </imageView>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vf-8R-bc0">
+                                <rect key="frame" x="347" y="150" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="Cj4-c0-y74"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX6-b0-OJC">
+                                <rect key="frame" x="199" y="150" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="JVr-By-yMQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v20-co-ddf">
+                                <rect key="frame" x="52" y="150" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="r2N-9D-diM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaK-HP-wNn">
+                                <rect key="frame" x="273" y="20" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="wie-38-eQ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVX-rw-2tX">
+                                <rect key="frame" x="126" y="20" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="Aur-Ro-MYJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FVX-rw-2tX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-65" id="2W5-es-2CB"/>
+                            <constraint firstItem="v20-co-ddf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-147" id="48b-bc-YOy"/>
+                            <constraint firstItem="KaK-HP-wNn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="74" id="4Km-AU-qgF"/>
+                            <constraint firstItem="8vf-8R-bc0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="65" id="8HV-63-neb"/>
+                            <constraint firstItem="DoI-rU-2Tt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="8hJ-qs-XQJ"/>
+                            <constraint firstItem="DoI-rU-2Tt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FYO-dg-exM"/>
+                            <constraint firstAttribute="bottom" secondItem="DoI-rU-2Tt" secondAttribute="bottom" id="Fyp-rL-mTK"/>
+                            <constraint firstItem="FVX-rw-2tX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-73" id="GEI-cc-rnt"/>
+                            <constraint firstItem="DoI-rU-2Tt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-96" id="RtV-O3-pW8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DoI-rU-2Tt" secondAttribute="trailing" constant="-96" id="ZRP-nY-6DK"/>
+                            <constraint firstItem="DoI-rU-2Tt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dgV-Fe-Ky4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="DoI-rU-2Tt" secondAttribute="bottom" constant="-144" id="eGY-P4-ae1"/>
+                            <constraint firstItem="8vf-8R-bc0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="148" id="lVp-pf-79j"/>
+                            <constraint firstItem="KaK-HP-wNn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-65" id="liX-u2-Myz"/>
+                            <constraint firstItem="v20-co-ddf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="65" id="mI5-50-DiA"/>
+                            <constraint firstItem="MX6-b0-OJC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="65" id="scb-un-2AU"/>
+                            <constraint firstAttribute="trailing" secondItem="DoI-rU-2Tt" secondAttribute="trailing" id="toD-ph-Wae"/>
+                            <constraint firstItem="MX6-b0-OJC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ubf-l3-IwB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8hJ-qs-XQJ"/>
+                                <exclude reference="RtV-O3-pW8"/>
+                                <exclude reference="ZRP-nY-6DK"/>
+                                <exclude reference="eGY-P4-ae1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="640" height="464"/>
+        <image name="wine.png" width="82" height="150"/>
+    </resources>
+</document>

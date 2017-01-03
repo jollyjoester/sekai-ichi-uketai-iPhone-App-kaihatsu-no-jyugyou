@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2739491C22945E00A0EE90 /* launchRA.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2739481C22945E00A0EE90 /* launchRA.png */; };
+		9E7D94901C293397004AAD64 /* StampSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D948F1C293397004AAD64 /* StampSelectViewController.swift */; };
+		9E7D94941C293909004AAD64 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D94911C293909004AAD64 /* icon-60.png */; };
+		9E7D94951C293909004AAD64 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D94921C293909004AAD64 /* icon-60@2x.png */; };
+		9E7D94961C293909004AAD64 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D94931C293909004AAD64 /* icon-60@3x.png */; };
+		9E95FB311C29555D00C968C0 /* launchImage-1242.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E95FB301C29555D00C968C0 /* launchImage-1242.png */; };
+		9E95FB351C2955E700C968C0 /* launchImage-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E95FB341C2955E700C968C0 /* launchImage-960.png */; };
+		9E95FB371C29568400C968C0 /* launchImage-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E95FB361C29568400C968C0 /* launchImage-1136.png */; };
+		9EB234751C218A9600EB74F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB234741C218A9600EB74F5 /* AppDelegate.swift */; };
+		9EB234771C218A9600EB74F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB234761C218A9600EB74F5 /* ViewController.swift */; };
+		9EB2347A1C218A9600EB74F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234781C218A9600EB74F5 /* Main.storyboard */; };
+		9EB2347C1C218A9600EB74F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2347B1C218A9600EB74F5 /* Assets.xcassets */; };
+		9EB2347F1C218A9600EB74F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2347D1C218A9600EB74F5 /* LaunchScreen.storyboard */; };
+		9EB2348A1C218A9600EB74F5 /* StampCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB234891C218A9600EB74F5 /* StampCameraTests.swift */; };
+		9EB234951C218A9600EB74F5 /* StampCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB234941C218A9600EB74F5 /* StampCameraUITests.swift */; };
+		9EB234BA1C218B4900EB74F5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234A31C218B4900EB74F5 /* 1.png */; };
+		9EB234BB1C218B4900EB74F5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234A41C218B4900EB74F5 /* 2.png */; };
+		9EB234BC1C218B4900EB74F5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234A51C218B4900EB74F5 /* 3.png */; };
+		9EB234BD1C218B4900EB74F5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234A61C218B4900EB74F5 /* 4.png */; };
+		9EB234BE1C218B4900EB74F5 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234A71C218B4900EB74F5 /* 5.png */; };
+		9EB234BF1C218B4900EB74F5 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234A81C218B4900EB74F5 /* 6.png */; };
+		9EB234D41C21BAE300EB74F5 /* Stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB234D31C21BAE200EB74F5 /* Stamp.swift */; };
+		9EB234DE1C22765700EB74F5 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234D51C22765700EB74F5 /* icon-29.png */; };
+		9EB234DF1C22765700EB74F5 /* icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234D61C22765700EB74F5 /* icon-29@2x.png */; };
+		9EB234E01C22765700EB74F5 /* icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234D71C22765700EB74F5 /* icon-29@3x.png */; };
+		9EB234E11C22765700EB74F5 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234D81C22765700EB74F5 /* icon-40.png */; };
+		9EB234E21C22765700EB74F5 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234D91C22765700EB74F5 /* icon-40@2x.png */; };
+		9EB234EA1C2277D000EB74F5 /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234E91C2277D000EB74F5 /* icon-40@3x.png */; };
+		9EB234EF1C227D2900EB74F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234F11C227D2900EB74F5 /* InfoPlist.strings */; };
+		9EB234F61C2284AF00EB74F5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB234F81C2284AF00EB74F5 /* Localizable.strings */; };
+		9ED183731C2296F900F687A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED183721C2296F900F687A5 /* Images.xcassets */; };
+		9ED183791C22980C00F687A5 /* launchImage-750.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED183781C22980C00F687A5 /* launchImage-750.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EB234861C218A9600EB74F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB234691C218A9600EB74F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB234701C218A9600EB74F5;
+			remoteInfo = StampCamera;
+		};
+		9EB234911C218A9600EB74F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB234691C218A9600EB74F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB234701C218A9600EB74F5;
+			remoteInfo = StampCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E2739481C22945E00A0EE90 /* launchRA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchRA.png; sourceTree = "<group>"; };
+		9E7D948F1C293397004AAD64 /* StampSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampSelectViewController.swift; sourceTree = "<group>"; };
+		9E7D94911C293909004AAD64 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		9E7D94921C293909004AAD64 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		9E7D94931C293909004AAD64 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		9E95FB301C29555D00C968C0 /* launchImage-1242.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage-1242.png"; sourceTree = "<group>"; };
+		9E95FB341C2955E700C968C0 /* launchImage-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage-960.png"; sourceTree = "<group>"; };
+		9E95FB361C29568400C968C0 /* launchImage-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage-1136.png"; sourceTree = "<group>"; };
+		9EB234711C218A9600EB74F5 /* StampCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StampCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB234741C218A9600EB74F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EB234761C218A9600EB74F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EB234791C218A9600EB74F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EB2347B1C218A9600EB74F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB2347E1C218A9600EB74F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EB234801C218A9600EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB234851C218A9600EB74F5 /* StampCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB234891C218A9600EB74F5 /* StampCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCameraTests.swift; sourceTree = "<group>"; };
+		9EB2348B1C218A9600EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB234901C218A9600EB74F5 /* StampCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB234941C218A9600EB74F5 /* StampCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCameraUITests.swift; sourceTree = "<group>"; };
+		9EB234961C218A9600EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB234A31C218B4900EB74F5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9EB234A41C218B4900EB74F5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		9EB234A51C218B4900EB74F5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9EB234A61C218B4900EB74F5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		9EB234A71C218B4900EB74F5 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		9EB234A81C218B4900EB74F5 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		9EB234D31C21BAE200EB74F5 /* Stamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stamp.swift; sourceTree = "<group>"; };
+		9EB234D51C22765700EB74F5 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
+		9EB234D61C22765700EB74F5 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29@2x.png"; sourceTree = "<group>"; };
+		9EB234D71C22765700EB74F5 /* icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29@3x.png"; sourceTree = "<group>"; };
+		9EB234D81C22765700EB74F5 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
+		9EB234D91C22765700EB74F5 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		9EB234E91C2277D000EB74F5 /* icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@3x.png"; sourceTree = "<group>"; };
+		9EB234EB1C227ABA00EB74F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		9EB234EC1C227ABA00EB74F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9EB234F01C227D2900EB74F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EB234F21C22827700EB74F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EB234F31C22827800EB74F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EB234F71C2284AF00EB74F5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9EB234F91C2284B400EB74F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9EB234FA1C2284B600EB74F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9ED183721C2296F900F687A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9ED183781C22980C00F687A5 /* launchImage-750.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage-750.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB2346E1C218A9600EB74F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB234821C218A9600EB74F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB2348D1C218A9600EB74F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB234681C218A9600EB74F5 = {
+			isa = PBXGroup;
+			children = (
+				9EB234731C218A9600EB74F5 /* StampCamera */,
+				9EB234881C218A9600EB74F5 /* StampCameraTests */,
+				9EB234931C218A9600EB74F5 /* StampCameraUITests */,
+				9EB234721C218A9600EB74F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB234721C218A9600EB74F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB234711C218A9600EB74F5 /* StampCamera.app */,
+				9EB234851C218A9600EB74F5 /* StampCameraTests.xctest */,
+				9EB234901C218A9600EB74F5 /* StampCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB234731C218A9600EB74F5 /* StampCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9EB234741C218A9600EB74F5 /* AppDelegate.swift */,
+				9EB234761C218A9600EB74F5 /* ViewController.swift */,
+				9EB234781C218A9600EB74F5 /* Main.storyboard */,
+				9EB2347D1C218A9600EB74F5 /* LaunchScreen.storyboard */,
+				9E7D948F1C293397004AAD64 /* StampSelectViewController.swift */,
+				9EB234D31C21BAE200EB74F5 /* Stamp.swift */,
+				9EB234A21C218B4900EB74F5 /* images */,
+				9EB2347B1C218A9600EB74F5 /* Assets.xcassets */,
+				9EB234801C218A9600EB74F5 /* Info.plist */,
+				9EB234F11C227D2900EB74F5 /* InfoPlist.strings */,
+				9EB234F81C2284AF00EB74F5 /* Localizable.strings */,
+				9ED183721C2296F900F687A5 /* Images.xcassets */,
+			);
+			path = StampCamera;
+			sourceTree = "<group>";
+		};
+		9EB234881C218A9600EB74F5 /* StampCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB234891C218A9600EB74F5 /* StampCameraTests.swift */,
+				9EB2348B1C218A9600EB74F5 /* Info.plist */,
+			);
+			path = StampCameraTests;
+			sourceTree = "<group>";
+		};
+		9EB234931C218A9600EB74F5 /* StampCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB234941C218A9600EB74F5 /* StampCameraUITests.swift */,
+				9EB234961C218A9600EB74F5 /* Info.plist */,
+			);
+			path = StampCameraUITests;
+			sourceTree = "<group>";
+		};
+		9EB234A21C218B4900EB74F5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9EB234A31C218B4900EB74F5 /* 1.png */,
+				9EB234A41C218B4900EB74F5 /* 2.png */,
+				9EB234A51C218B4900EB74F5 /* 3.png */,
+				9EB234A61C218B4900EB74F5 /* 4.png */,
+				9EB234A71C218B4900EB74F5 /* 5.png */,
+				9EB234A81C218B4900EB74F5 /* 6.png */,
+				9EB234D51C22765700EB74F5 /* icon-29.png */,
+				9EB234D61C22765700EB74F5 /* icon-29@2x.png */,
+				9EB234D71C22765700EB74F5 /* icon-29@3x.png */,
+				9EB234D81C22765700EB74F5 /* icon-40.png */,
+				9EB234D91C22765700EB74F5 /* icon-40@2x.png */,
+				9EB234E91C2277D000EB74F5 /* icon-40@3x.png */,
+				9E7D94911C293909004AAD64 /* icon-60.png */,
+				9E7D94921C293909004AAD64 /* icon-60@2x.png */,
+				9E7D94931C293909004AAD64 /* icon-60@3x.png */,
+				9E2739481C22945E00A0EE90 /* launchRA.png */,
+				9E95FB301C29555D00C968C0 /* launchImage-1242.png */,
+				9ED183781C22980C00F687A5 /* launchImage-750.png */,
+				9E95FB341C2955E700C968C0 /* launchImage-960.png */,
+				9E95FB361C29568400C968C0 /* launchImage-1136.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB234701C218A9600EB74F5 /* StampCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB234991C218A9600EB74F5 /* Build configuration list for PBXNativeTarget "StampCamera" */;
+			buildPhases = (
+				9EB2346D1C218A9600EB74F5 /* Sources */,
+				9EB2346E1C218A9600EB74F5 /* Frameworks */,
+				9EB2346F1C218A9600EB74F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StampCamera;
+			productName = StampCamera;
+			productReference = 9EB234711C218A9600EB74F5 /* StampCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EB234841C218A9600EB74F5 /* StampCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB2349C1C218A9600EB74F5 /* Build configuration list for PBXNativeTarget "StampCameraTests" */;
+			buildPhases = (
+				9EB234811C218A9600EB74F5 /* Sources */,
+				9EB234821C218A9600EB74F5 /* Frameworks */,
+				9EB234831C218A9600EB74F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB234871C218A9600EB74F5 /* PBXTargetDependency */,
+			);
+			name = StampCameraTests;
+			productName = StampCameraTests;
+			productReference = 9EB234851C218A9600EB74F5 /* StampCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EB2348F1C218A9600EB74F5 /* StampCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB2349F1C218A9600EB74F5 /* Build configuration list for PBXNativeTarget "StampCameraUITests" */;
+			buildPhases = (
+				9EB2348C1C218A9600EB74F5 /* Sources */,
+				9EB2348D1C218A9600EB74F5 /* Frameworks */,
+				9EB2348E1C218A9600EB74F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB234921C218A9600EB74F5 /* PBXTargetDependency */,
+			);
+			name = StampCameraUITests;
+			productName = StampCameraUITests;
+			productReference = 9EB234901C218A9600EB74F5 /* StampCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB234691C218A9600EB74F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Haruyoshi Kuwamura";
+				TargetAttributes = {
+					9EB234701C218A9600EB74F5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9EB234841C218A9600EB74F5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9EB234701C218A9600EB74F5;
+					};
+					9EB2348F1C218A9600EB74F5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9EB234701C218A9600EB74F5;
+					};
+				};
+			};
+			buildConfigurationList = 9EB2346C1C218A9600EB74F5 /* Build configuration list for PBXProject "StampCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB234681C218A9600EB74F5;
+			productRefGroup = 9EB234721C218A9600EB74F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB234701C218A9600EB74F5 /* StampCamera */,
+				9EB234841C218A9600EB74F5 /* StampCameraTests */,
+				9EB2348F1C218A9600EB74F5 /* StampCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB2346F1C218A9600EB74F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED183791C22980C00F687A5 /* launchImage-750.png in Resources */,
+				9E2739491C22945E00A0EE90 /* launchRA.png in Resources */,
+				9EB234DF1C22765700EB74F5 /* icon-29@2x.png in Resources */,
+				9E7D94941C293909004AAD64 /* icon-60.png in Resources */,
+				9EB234E01C22765700EB74F5 /* icon-29@3x.png in Resources */,
+				9EB2347F1C218A9600EB74F5 /* LaunchScreen.storyboard in Resources */,
+				9EB234BD1C218B4900EB74F5 /* 4.png in Resources */,
+				9EB234EA1C2277D000EB74F5 /* icon-40@3x.png in Resources */,
+				9EB234BA1C218B4900EB74F5 /* 1.png in Resources */,
+				9E95FB371C29568400C968C0 /* launchImage-1136.png in Resources */,
+				9E95FB311C29555D00C968C0 /* launchImage-1242.png in Resources */,
+				9EB234F61C2284AF00EB74F5 /* Localizable.strings in Resources */,
+				9EB234E21C22765700EB74F5 /* icon-40@2x.png in Resources */,
+				9EB234BF1C218B4900EB74F5 /* 6.png in Resources */,
+				9EB234BB1C218B4900EB74F5 /* 2.png in Resources */,
+				9EB234BC1C218B4900EB74F5 /* 3.png in Resources */,
+				9ED183731C2296F900F687A5 /* Images.xcassets in Resources */,
+				9E7D94961C293909004AAD64 /* icon-60@3x.png in Resources */,
+				9EB234EF1C227D2900EB74F5 /* InfoPlist.strings in Resources */,
+				9E7D94951C293909004AAD64 /* icon-60@2x.png in Resources */,
+				9EB234E11C22765700EB74F5 /* icon-40.png in Resources */,
+				9EB234BE1C218B4900EB74F5 /* 5.png in Resources */,
+				9E95FB351C2955E700C968C0 /* launchImage-960.png in Resources */,
+				9EB2347C1C218A9600EB74F5 /* Assets.xcassets in Resources */,
+				9EB2347A1C218A9600EB74F5 /* Main.storyboard in Resources */,
+				9EB234DE1C22765700EB74F5 /* icon-29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB234831C218A9600EB74F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB2348E1C218A9600EB74F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB2346D1C218A9600EB74F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7D94901C293397004AAD64 /* StampSelectViewController.swift in Sources */,
+				9EB234771C218A9600EB74F5 /* ViewController.swift in Sources */,
+				9EB234751C218A9600EB74F5 /* AppDelegate.swift in Sources */,
+				9EB234D41C21BAE300EB74F5 /* Stamp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB234811C218A9600EB74F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB2348A1C218A9600EB74F5 /* StampCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB2348C1C218A9600EB74F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB234951C218A9600EB74F5 /* StampCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EB234871C218A9600EB74F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB234701C218A9600EB74F5 /* StampCamera */;
+			targetProxy = 9EB234861C218A9600EB74F5 /* PBXContainerItemProxy */;
+		};
+		9EB234921C218A9600EB74F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB234701C218A9600EB74F5 /* StampCamera */;
+			targetProxy = 9EB234911C218A9600EB74F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EB234781C218A9600EB74F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB234791C218A9600EB74F5 /* Base */,
+				9EB234EB1C227ABA00EB74F5 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EB2347D1C218A9600EB74F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB2347E1C218A9600EB74F5 /* Base */,
+				9EB234EC1C227ABA00EB74F5 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9EB234F11C227D2900EB74F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB234F01C227D2900EB74F5 /* ja */,
+				9EB234F21C22827700EB74F5 /* Base */,
+				9EB234F31C22827800EB74F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EB234F81C2284AF00EB74F5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB234F71C2284AF00EB74F5 /* ja */,
+				9EB234F91C2284B400EB74F5 /* Base */,
+				9EB234FA1C2284B600EB74F5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB234971C218A9600EB74F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EB234981C218A9600EB74F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EB2349A1C218A9600EB74F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = StampCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.StampCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EB2349B1C218A9600EB74F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = StampCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.StampCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EB2349D1C218A9600EB74F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StampCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.StampCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampCamera.app/StampCamera";
+			};
+			name = Debug;
+		};
+		9EB2349E1C218A9600EB74F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StampCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.StampCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampCamera.app/StampCamera";
+			};
+			name = Release;
+		};
+		9EB234A01C218A9600EB74F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StampCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.StampCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StampCamera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9EB234A11C218A9600EB74F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StampCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onTheHammock.StampCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StampCamera;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB2346C1C218A9600EB74F5 /* Build configuration list for PBXProject "StampCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB234971C218A9600EB74F5 /* Debug */,
+				9EB234981C218A9600EB74F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB234991C218A9600EB74F5 /* Build configuration list for PBXNativeTarget "StampCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB2349A1C218A9600EB74F5 /* Debug */,
+				9EB2349B1C218A9600EB74F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB2349C1C218A9600EB74F5 /* Build configuration list for PBXNativeTarget "StampCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB2349D1C218A9600EB74F5 /* Debug */,
+				9EB2349E1C218A9600EB74F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB2349F1C218A9600EB74F5 /* Build configuration list for PBXNativeTarget "StampCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB234A01C218A9600EB74F5 /* Debug */,
+				9EB234A11C218A9600EB74F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EB234691C218A9600EB74F5 /* Project object */;
+}
