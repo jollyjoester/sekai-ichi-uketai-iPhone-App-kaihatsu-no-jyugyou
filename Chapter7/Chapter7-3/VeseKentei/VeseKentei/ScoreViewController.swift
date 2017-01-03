@@ -26,17 +26,17 @@ class ScoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //合格回数を保存するNSUserDefaults
-        let goukakuUd = NSUserDefaults.standardUserDefaults()
+        let goukakuUd = UserDefaults.standard
         //合格回数をgoukakuというキー値で変数goukakuTimesに格納
-        goukakuTimes = goukakuUd.integerForKey("goukaku")
+        goukakuTimes = goukakuUd.integer(forKey: "goukaku")
         //正解数を表示
         scoreLabel.text = "正解数は\(correct)問です。"
         //合格・不合格を判定
         if correct >= 7{
             judgeImageView.image = UIImage(named: "Goukaku.png")
-            goukakuTimes++            //合格回数をカウントアップ
+            goukakuTimes += 1            //合格回数をカウントアップ
             //goukakuキー値を使って合格回数(goukakuTimes)を保存
-            goukakuUd.setInteger(goukakuTimes, forKey: "goukaku")
+            goukakuUd.set(goukakuTimes, forKey: "goukaku")
         }else{
             judgeImageView.image = UIImage(named: "Fugoukaku.png")
         }
@@ -60,30 +60,30 @@ class ScoreViewController: UIViewController {
         rankLabel.text = "ランクは\(rankString)！"
     }
     //Facebook投稿メソッド
-    @IBAction func postFacebook(sender: AnyObject) {
+    @IBAction func postFacebook(_ sender: AnyObject) {
         //Facebook投稿用インスタンスを作成
         let fbVC:SLComposeViewController = SLComposeViewController  (forServiceType: SLServiceTypeFacebook)!
         //投稿テキストを設定
         fbVC.setInitialText("三浦のおやさい検定：私は\(rankString)。合格回数は\(goukakuTimes)回です。")
         //投稿画像を設定
-        fbVC.addImage(UIImage(named: "icon.png"))
+        fbVC.add(UIImage(named: "icon.png"))
         //投稿用URLを設定
-        fbVC.addURL(NSURL(string: "http://onthehammock.com/app/5783"))
+        fbVC.add(URL(string: "http://onthehammock.com/app/5783"))
         //投稿コントローラーを起動
-        self.presentViewController(fbVC, animated: true,   completion: nil)
+        self.present(fbVC, animated: true,   completion: nil)
     }
     //Twitter投稿メソッド
-    @IBAction func postTwitter(sender: AnyObject) {
+    @IBAction func postTwitter(_ sender: AnyObject) {
         //Twitter投稿用インスタンスを作成
         let twVC:SLComposeViewController = SLComposeViewController  (forServiceType: SLServiceTypeTwitter)!
         //投稿テキストを設定
         twVC.setInitialText("三浦のおやさい検定：私は\(rankString)。合格回数は\(goukakuTimes)回です。")
         //投稿画像を設定
-        twVC.addImage(UIImage(named: "icon.png"))
+        twVC.add(UIImage(named: "icon.png"))
         //投稿用URLを設定
-        twVC.addURL(NSURL(string: "http://onthehammock.com/app/5783"))
+        twVC.add(URL(string: "http://onthehammock.com/app/5783"))
         //投稿コントローラーを起動
-        self.presentViewController(twVC, animated: true,   completion: nil)
+        self.present(twVC, animated: true,   completion: nil)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

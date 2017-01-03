@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -31,7 +35,7 @@
                                     <constraint firstAttribute="height" constant="30" id="nXO-26-EVK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2M-Jv-ZDw">
@@ -41,7 +45,7 @@
                                     <constraint firstAttribute="width" constant="320" id="zpZ-9P-rYH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKy-Vg-CU7">
@@ -59,7 +63,7 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzg-h7-fgC">
                                 <rect key="frame" x="35" y="325.5" width="250" height="60"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="KTa-ia-Zg7"/>
                                     <constraint firstAttribute="height" constant="60" id="vfq-f7-cuC"/>
@@ -69,7 +73,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DyB-zX-ako" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A06-KG-FmQ"/>
                             <constraint firstItem="B2M-Jv-ZDw" firstAttribute="top" secondItem="gKy-Vg-CU7" secondAttribute="bottom" constant="20" id="JOv-4U-Ykj"/>
@@ -89,7 +93,6 @@
                             </mask>
                         </variation>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="bodyTextView" destination="Tzg-h7-fgC" id="KyD-Fu-xR8"/>
                         <outlet property="creditLabel" destination="B2M-Jv-ZDw" id="OZL-sX-Sp3"/>
@@ -127,12 +130,12 @@
                                     <constraint firstAttribute="height" constant="20" id="LiT-yK-u0p"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W6s-r5-1HA">
                                 <rect key="frame" x="40" y="90" width="240" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="GaP-ad-mtb"/>
                                     <constraint firstAttribute="width" constant="240" id="c7Z-OL-A6x"/>
@@ -148,7 +151,7 @@
                                     <constraint firstAttribute="height" constant="40" id="hOf-Y6-xiu"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="btn_off.png">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="btn_on.png"/>
                                 <connections>
@@ -162,7 +165,7 @@
                                     <constraint firstAttribute="height" constant="40" id="hGF-Re-GTO"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="btn_off.png">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="btn_on.png"/>
                                 <connections>
@@ -176,7 +179,7 @@
                                     <constraint firstAttribute="height" constant="40" id="7ni-VM-zIy"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="btn_off.png">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="btn_on.png"/>
                                 <connections>
@@ -190,7 +193,7 @@
                                     <constraint firstAttribute="width" constant="300" id="jRw-a8-YuO"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="btn_off.png">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="btn_on.png"/>
                                 <connections>
@@ -205,7 +208,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="G8u-Bb-bwP" firstAttribute="centerX" secondItem="358-zt-faT" secondAttribute="centerX" id="0mn-JL-QAe"/>
                             <constraint firstItem="Waz-gq-X0z" firstAttribute="centerY" secondItem="358-zt-faT" secondAttribute="centerY" constant="-100" id="7gh-7t-32T"/>
@@ -225,7 +228,6 @@
                             <constraint firstItem="pdy-g1-k6f" firstAttribute="centerX" secondItem="358-zt-faT" secondAttribute="centerX" id="uXG-Dv-Ufi"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="answerBtn1" destination="pdy-g1-k6f" id="k0V-t0-ila"/>
                         <outlet property="answerBtn2" destination="twa-es-QLg" id="CZS-Bx-dHW"/>
@@ -239,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YPt-e5-2tP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="792" y="322"/>
+            <point key="canvasLocation" x="902" y="320"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="ue9-Iz-bFS">
@@ -269,7 +271,7 @@
                                     <constraint firstAttribute="width" constant="235" id="tfW-W3-y3k"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-PR-Exp">
@@ -287,7 +289,7 @@
                                     <constraint firstAttribute="height" constant="20" id="mQF-Ef-N6i"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya5-vd-gXn">
@@ -297,7 +299,7 @@
                                     <constraint firstAttribute="height" constant="20" id="Vem-0A-iEX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWX-SC-M38">
@@ -317,7 +319,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1UR-wj-K0b" firstAttribute="centerY" secondItem="NhK-sq-dmg" secondAttribute="centerY" constant="-180" id="BkD-Md-7ke"/>
                             <constraint firstItem="4uC-3Q-JRc" firstAttribute="centerX" secondItem="NhK-sq-dmg" secondAttribute="centerX" id="E1n-vQ-4TR"/>
@@ -339,7 +341,6 @@
                             <constraint firstItem="zA1-Bj-ILX" firstAttribute="centerX" secondItem="NhK-sq-dmg" secondAttribute="centerX" id="w7n-NK-Oxx"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="goukakuTimesLabel" destination="wY5-BS-NGS" id="3Q0-WL-s6V"/>
                         <outlet property="judgeImageView" destination="zA1-Bj-ILX" id="Jv4-ZZ-4KO"/>
@@ -349,15 +350,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uf9-U9-Xcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1194" y="322"/>
+            <point key="canvasLocation" x="1639" y="320"/>
         </scene>
     </scenes>
     <resources>
         <image name="Goukaku.png" width="270" height="169"/>
-        <image name="btn_off.png" width="303" height="37"/>
-        <image name="btn_on.png" width="303" height="37"/>
+        <image name="btn_off.png" width="300" height="40"/>
+        <image name="btn_on.png" width="300" height="40"/>
         <image name="fbOff.png" width="45" height="45"/>
-        <image name="fbOn.png" width="50" height="50"/>
+        <image name="fbOn.png" width="45" height="45"/>
         <image name="kenteiBack.png" width="145" height="30"/>
         <image name="kenteiBackOn.png" width="145" height="30"/>
         <image name="logo.png" width="308" height="98"/>
