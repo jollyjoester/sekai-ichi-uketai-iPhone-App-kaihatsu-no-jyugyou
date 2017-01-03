@@ -18,9 +18,9 @@ class ViewController: UIViewController {
         //ニュース情報の取得先
         let requestUrl = "http://appcre.net/rss.php"
         //Webサーバに対してHTTP通信のリクエストを出してデータを取得
-        Alamofire.request(.GET, requestUrl).responseJSON { response in
+        Alamofire.request(requestUrl).responseJSON { response in
             switch response.result {
-            case .Success(let json):
+            case .success(let json):
                 //JSONデータをNSDictionaryに
                 let jsonDic = json as! NSDictionary
                 // 辞書化した jsonDic からキー値 "responseData" を取り出す
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
                 //responseData からキー値 "results" を取り出す
                 self.newsDataArray = responseData["results"] as! NSArray
                 print("\(self.newsDataArray)")
-            case .Failure(let error):
+            case .failure(let error):
                 print("通信エラー:\(error)")
             }
         }
