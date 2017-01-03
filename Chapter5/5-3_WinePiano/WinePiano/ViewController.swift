@@ -17,12 +17,12 @@ class ViewController: UIViewController {
     var wineGlass: AVAudioPlayer!
     
     //BGM再生メソッド
-    func play(soundName: String) {
+    func play(_ soundName: String) {
         //String型の引数からサウンドファイルを読み込む
-        let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent(soundName)
+        let url = Bundle.main.bundleURL.appendingPathComponent(soundName)
         do {
             //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-            try player = AVAudioPlayer(contentsOfURL: url)
+            try player = AVAudioPlayer(contentsOf: url)
             player.numberOfLoops = -1      //BGMを無限にループさせる
             player.prepareToPlay()         //音声を即時再生させる
             player.play()                  //音を再生する
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     }
     
     //ワイングラスボタンメソッド
-    @IBAction func wineTapped(sender: UIButton) {
+    @IBAction func wineTapped(_ sender: UIButton) {
         //サウンドファイル名を格納するsound変数。初期値に空の文字を入れておく
         var sound:String = ""
         

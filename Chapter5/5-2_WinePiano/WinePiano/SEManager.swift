@@ -13,10 +13,10 @@ class SEManager: NSObject {
     //音を制御するための変数
     var player:AVAudioPlayer!
     //音を再生するsePlayメソッド
-    func sePlay(soundName: String){
-        let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent(soundName)
+    func sePlay(_ soundName: String){
+        let path = Bundle.main.bundleURL.appendingPathComponent(soundName)
         do {
-            try player = AVAudioPlayer(contentsOfURL: path)
+            try player = AVAudioPlayer(contentsOf: path)
             player.prepareToPlay()
             player.play()
         }
