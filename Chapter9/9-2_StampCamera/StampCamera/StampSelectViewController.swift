@@ -20,14 +20,14 @@ class StampSelectViewController: UIViewController, UICollectionViewDataSource, U
         }
     }
     //コレクションビューのアイテム数を設定
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //戻り値にimageArrayの要素数を設定
         return imageArray.count
     }
     //コレクションビューのセルを設定
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         //UICollectionViewCellを使うための定数を作成
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         //セルの中の画像を表示するImageViewのタグを指定
         let imageView = cell.viewWithTag(1) as! UIImageView
         //セルの中のImageViewに配列の中の画像データを表示
@@ -38,22 +38,22 @@ class StampSelectViewController: UIViewController, UICollectionViewDataSource, U
     //スタンプ画面を閉じるメソッド
     @IBAction func closeTapped() {
         //モーダルで表示した画面を閉じる
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     //コレクションビューのセルが選択された時のメソッド
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         //Stampインスタンスを作成
         let stamp = Stamp()
         //stampにインデックスパスからスタンプ画像を設定
         stamp.image = imageArray[indexPath.row]
         //AppDelegateのインスタンスを取得
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         //配列stampArrayにstampを追加
         appDelegate.stampArray.append(stamp)
         //新規スタンプ追加フラグをtrueに設定
         appDelegate.isNewStampAdded = true
         //スタンプ選択画面を閉じる
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
