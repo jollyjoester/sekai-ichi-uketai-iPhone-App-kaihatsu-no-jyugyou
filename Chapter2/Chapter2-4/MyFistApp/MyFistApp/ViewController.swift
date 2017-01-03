@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func tappedButton(sender: AnyObject) {
+    @IBAction func tappedButton(_ sender: AnyObject) {
         label.text = "めでたい!!"
     }
 }
