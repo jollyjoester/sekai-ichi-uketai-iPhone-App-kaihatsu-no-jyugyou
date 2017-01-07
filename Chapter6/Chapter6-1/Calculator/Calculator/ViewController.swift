@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //画面の横幅のサイズを格納するメンバ変数
-        let screenWidth:Double = Double(UIScreen.mainScreen().bounds.size.width)
+        let screenWidth:Double = Double(UIScreen.main.bounds.size.width)
         //画面の縦幅
-        let screenHeight:Double = Double(UIScreen.mainScreen().bounds.size.height)
+        let screenHeight:Double = Double(UIScreen.main.bounds.size.height)
         //ボタン間の余白(縦) & (横)
         let buttonMargin = 10.0
         // 計算結果表示エリアの縦幅
@@ -40,11 +40,11 @@ class ViewController: UIViewController {
         resultLabel.frame = CGRect(x: 10, y: 30, width: screenWidth - 20, height: resultArea - 30)
 
         //計算結果ラベルの背景色を灰色にする
-        resultLabel.backgroundColor = UIColor.grayColor()
+        resultLabel.backgroundColor = UIColor.gray
         //計算結果ラベルのフォントと文字サイズを設定
         resultLabel.font = UIFont(name: "Arial", size: 50)
         //計算結果ラベルのアラインメントを右揃えに設定
-        resultLabel.textAlignment = NSTextAlignment.Right
+        resultLabel.textAlignment = NSTextAlignment.right
         //計算結果ラベルの表示行数を4行に設定
         resultLabel.numberOfLines = 4
         //計算結果ラベルの初期値を"0"に設定
@@ -60,8 +60,8 @@ class ViewController: UIViewController {
             "0","C","÷","="
         ]
         
-        for var y = 0; y < yButtonCount; y++ {
-            for var x = 0; x < xButtonCount; x++ {
+        for y in 0 ..< yButtonCount {
+            for x in 0 ..< xButtonCount {
                 //計算機のボタンを作成
                 let button = UIButton()
                 // ボタンの横幅サイズ作成
@@ -75,11 +75,11 @@ class ViewController: UIViewController {
                 // ボタンの縦幅サイズ作成
                 button.frame = CGRect(x:buttonPositionX,y: buttonPositionY, width:buttonWidth,height:buttonHeight)
                 // ボタン背景色設定
-                button.backgroundColor = UIColor.greenColor()
+                button.backgroundColor = UIColor.green
                 //ボタンのラベルタイトルを取り出すインデックス番号
                 let buttonNumber = y * xButtonCount + x
                 //ボタンのラベルタイトルを設定
-                button.setTitle(buttonLabels[buttonNumber], forState: UIControlState.Normal)
+                button.setTitle(buttonLabels[buttonNumber], for: UIControlState())
 
                 // ボタン配置
                 self.view.addSubview(button)

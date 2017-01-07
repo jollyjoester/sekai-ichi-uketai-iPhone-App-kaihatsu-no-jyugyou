@@ -27,23 +27,23 @@ class ViewController: UIViewController {
         //bodyTextViewにアプリ説明文を設定
         bodyTextView.text = csvArray[2]
         //ボタンの文字を白色に変更
-        startButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        startButton.setTitleColor(UIColor.white, for: .normal)
         //creditLabelにクレジットを設定
         creditLabel.text = csvArray[3]
     }
     //CSVファイル読み込みメソッド。引数でファイル名を取得。戻り値はString型の配列。
-    func loadCSV(fileName :String) -> [String]{
+    func loadCSV(_ fileName :String) -> [String]{
         //CSVファイルのデータを格納するStrig型配列
         var csvArray:[String] = []
         //引数filnameからCSVファイルのパスを設定
-        let csvBundle = NSBundle.mainBundle().pathForResource(fileName, ofType: "csv")!
+        let csvBundle = Bundle.main.path(forResource: fileName, ofType: "csv")!
         do {
             //csvBundleからファイルを読み込み、エンコーディングしてcsvDataに格納
-            let csvData = try String(contentsOfFile: csvBundle,encoding: NSUTF8StringEncoding)
+            let csvData = try String(contentsOfFile: csvBundle,encoding: String.Encoding.utf8)
             //改行コードが"\r"の場合は"\n"に置換する
-            let lineChange = csvData.stringByReplacingOccurrencesOfString("\r", withString: "\n")
+            let lineChange = csvData.replacingOccurrences(of: "\r", with: "\n")
             //"\n"の改行コードで要素を切り分け、配列csvArrayに格納する
-            csvArray = lineChange.componentsSeparatedByString("\n")
+            csvArray = lineChange.components(separatedBy: "\n")
         }catch{
             print("エラー")
         }

@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     var wineGlass: AVAudioPlayer!
     
     //BGM再生メソッド
-    func play(soundName: String) {
+    func play(_ soundName: String) {
         //String型の引数からサウンドファイルを読み込む
-        let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent(soundName)
+        let url = Bundle.main.bundleURL.appendingPathComponent(soundName)
         do {
             //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-            try player = AVAudioPlayer(contentsOfURL: url)
+            try player = AVAudioPlayer(contentsOf: url)
             player.numberOfLoops = -1      //BGMを無限にループさせる
             player.prepareToPlay()         //音声を即時再生させる
             player.play()                  //音を再生する
@@ -39,14 +39,14 @@ class ViewController: UIViewController {
     }
 
     //ワイングラスボタンメソッド
-    @IBAction func wineTapped(sender: UIButton) {
+    @IBAction func wineTapped(_ sender: UIButton) {
         switch sender.tag {
         case 1:
             print("ワイングラスボタン\(sender.tag)")
-            let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("1.mp3")
+            let path = Bundle.main.bundleURL.appendingPathComponent("1.mp3")
             do {
                 //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-                try wineGlass = AVAudioPlayer(contentsOfURL: path)
+                try wineGlass = AVAudioPlayer(contentsOf: path)
                 wineGlass.prepareToPlay()         //音声を即時再生させる
                 wineGlass.play()                  //音を再生する
             }
@@ -56,10 +56,10 @@ class ViewController: UIViewController {
             
         case 2:
             print("ワイングラスボタン\(sender.tag)")
-            let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("2.mp3")
+            let path = Bundle.main.bundleURL.appendingPathComponent("2.mp3")
             do {
                 //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-                try wineGlass = AVAudioPlayer(contentsOfURL: path)
+                try wineGlass = AVAudioPlayer(contentsOf: path)
                 wineGlass.prepareToPlay()         //音声を即時再生させる
                 wineGlass.play()                  //音を再生する
             }
@@ -69,10 +69,10 @@ class ViewController: UIViewController {
             
         case 3:
             print("ワイングラスボタン\(sender.tag)")
-            let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("3.mp3")
+            let path = Bundle.main.bundleURL.appendingPathComponent("3.mp3")
             do {
                 //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-                try wineGlass = AVAudioPlayer(contentsOfURL: path)
+                try wineGlass = AVAudioPlayer(contentsOf: path)
                 wineGlass.prepareToPlay()         //音声を即時再生させる
                 wineGlass.play()                  //音を再生する
             }
@@ -82,10 +82,10 @@ class ViewController: UIViewController {
             
         case 4:
             print("ワイングラスボタン\(sender.tag)")
-            let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("4.mp3")
+            let path = Bundle.main.bundleURL.appendingPathComponent("4.mp3")
             do {
                 //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-                try wineGlass = AVAudioPlayer(contentsOfURL: path)
+                try wineGlass = AVAudioPlayer(contentsOf: path)
                 wineGlass.prepareToPlay()         //音声を即時再生させる
                 wineGlass.play()                  //音を再生する
             }
@@ -95,10 +95,10 @@ class ViewController: UIViewController {
             
         case 5:
             print("ワイングラスボタン\(sender.tag)")
-            let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("5.mp3")
+            let path = Bundle.main.bundleURL.appendingPathComponent("5.mp3")
             do {
                 //サウンドファイルの参照先をAVAudioPlayerの変数に割り当てる
-                try wineGlass = AVAudioPlayer(contentsOfURL: path)
+                try wineGlass = AVAudioPlayer(contentsOf: path)
                 wineGlass.prepareToPlay()         //音声を即時再生させる
                 wineGlass.play()                  //音を再生する
             }

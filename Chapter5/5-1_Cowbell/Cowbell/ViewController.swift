@@ -15,12 +15,12 @@ class ViewController: UIViewController {
     //音声を制御するための変数player
     var player: AVAudioPlayer!
 
-    @IBAction func play(sender: AnyObject) {
+    @IBAction func play(_ sender: AnyObject) {
         //サウンドファイルを読み込む
-        let url = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent("cowbell.mp3")
+        let url = Bundle.main.bundleURL.appendingPathComponent("cowbell.mp3")
         
         do {
-            try player = AVAudioPlayer(contentsOfURL: url)
+            try player = AVAudioPlayer(contentsOf: url)
             player.play()
         }
         catch {

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -24,13 +28,13 @@
                                 <rect key="frame" x="107" y="119" width="265" height="82"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="しんごうのいろはなにいろ？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP0-mm-FTe">
-                                <rect key="frame" x="84" y="45" width="312" height="29"/>
+                                <rect key="frame" x="82" y="45" width="316.5" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CA3-x0-po3">
-                                <rect key="frame" x="204" y="234" width="72" height="81"/>
+                                <rect key="frame" x="204" y="235" width="72" height="80"/>
                                 <state key="normal" image="btn_yellow_off.png"/>
                                 <state key="highlighted" image="btn_yellow_on.png"/>
                                 <connections>
@@ -38,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naW-XW-ipB">
-                                <rect key="frame" x="346" y="234" width="72" height="81"/>
+                                <rect key="frame" x="346" y="235" width="71" height="80"/>
                                 <state key="normal" image="btn_red_off.png"/>
                                 <state key="highlighted" image="btn_red_on.png"/>
                                 <connections>
@@ -52,11 +56,11 @@
                                     <constraint firstAttribute="height" constant="20" id="jrd-2b-4mm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hZ-VP-m4x">
-                                <rect key="frame" x="62" y="234" width="72" height="81"/>
+                                <rect key="frame" x="63" y="235" width="71" height="80"/>
                                 <state key="normal" image="btn_blue_off.png"/>
                                 <state key="highlighted" image="btn_blue_on.png"/>
                                 <connections>
@@ -64,7 +68,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Bue-Ns-4k0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Z5-IX-m79"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aop-8G-qUE" secondAttribute="bottom" id="3dW-rU-7Ft"/>
@@ -104,8 +108,6 @@
                             </mask>
                         </variation>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="resultLabel" destination="Bue-Ns-4k0" id="ZNZ-0u-84Q"/>
                     </connections>
@@ -116,13 +118,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background.png" width="568" height="320"/>
-        <image name="btn_blue_off.png" width="72" height="81"/>
-        <image name="btn_blue_on.png" width="72" height="74"/>
-        <image name="btn_red_off.png" width="72" height="81"/>
-        <image name="btn_red_on.png" width="72" height="74"/>
-        <image name="btn_yellow_off.png" width="72" height="81"/>
-        <image name="btn_yellow_on.png" width="72" height="74"/>
+        <image name="background.png" width="568" height="319"/>
+        <image name="btn_blue_off.png" width="71" height="80"/>
+        <image name="btn_blue_on.png" width="71" height="73"/>
+        <image name="btn_red_off.png" width="71" height="80"/>
+        <image name="btn_red_on.png" width="71" height="73"/>
+        <image name="btn_yellow_off.png" width="72" height="80"/>
+        <image name="btn_yellow_on.png" width="72" height="73"/>
         <image name="signal_blue.png" width="265" height="82"/>
     </resources>
 </document>

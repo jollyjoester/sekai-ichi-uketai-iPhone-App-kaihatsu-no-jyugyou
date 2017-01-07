@@ -14,12 +14,12 @@ class SEManager: NSObject, AVAudioPlayerDelegate {
     var soundArray = [AVAudioPlayer]()
     
     //音を再生するsePlayメソッド
-    func sePlay(soundName: String) {
-        let path = NSBundle.mainBundle().bundleURL.URLByAppendingPathComponent(soundName)
+    func sePlay(_ soundName: String) {
+        let path = Bundle.main.bundleURL.appendingPathComponent(soundName)
         var player: AVAudioPlayer!
 
         do {
-            try player = AVAudioPlayer(contentsOfURL: path)
+            try player = AVAudioPlayer(contentsOf: path)
             //配列soundArrayにplayerを追加
             soundArray.append(player)
             player.delegate = self
@@ -31,11 +31,11 @@ class SEManager: NSObject, AVAudioPlayerDelegate {
         }
     }
     //サウンドの再生後に実行されるメソッド
-    func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         //再生が終わった変数のインデックスを調べる
-        let i: Int = soundArray.indexOf(player)!
+        let i: Int = soundArray.index(of: player)!
         //上記で調べたインデックスの要素を削除する。
-        soundArray.removeAtIndex(i)
+        soundArray.remove(at: i)
     }
     
 }

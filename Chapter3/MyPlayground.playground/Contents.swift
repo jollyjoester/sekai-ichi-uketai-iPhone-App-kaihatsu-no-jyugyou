@@ -24,8 +24,8 @@ x * y
 x / y
 x % y
 
-x++     // インクリメント演算子。x = x + 1と同じであり、xに1が加算される
-x--     // デクリメント演算子。x = x - 1と同じであり、xに1が減算される
+//x++     // Swift3で非推奨に。インクリメント演算子。x = x + 1と同じであり、xに1が加算される
+//x--     // Swift3で非推奨に。デクリメント演算子。x = x - 1と同じであり、xに1が減算される
 x += 5  // 複合代入演算子。x = x + 5と同じであり、xに5が加算される
 x -= 5  // 複合代入演算子。x = x - 5と同じであり、xに5が減算される
 
@@ -115,15 +115,18 @@ var score2 = 0
 var str7 = "あなたのスコアは\(score)点です"
 
 var str8 = "HELLO"
-str8.lowercaseString
+//str8.lowercaseString
+str8.lowercased()
 
 var str9 = "hello"
-str9.uppercaseString
+//str9.uppercaseString
+str9.uppercased()
 
 str9.characters.count
 
 var str10 = "Hello, Swift"
-str10.componentsSeparatedByString(",")
+//str10.componentsSeparatedByString(",")
+str10.components(separatedBy: ",")
 
 // Chapter3-5
 
@@ -142,7 +145,8 @@ daysArray2.count
 daysArray2[2] = "水曜"
 daysArray2
 
-daysArray2.removeAtIndex(2)
+//daysArray2.removeAtIndex(2)
+daysArray2.remove(at: 2)
 daysArray2
 
 daysArray2.removeLast()
@@ -155,7 +159,8 @@ var daysArray3 = ["月", "火", "木", "金", "土"]
 daysArray3.append("日")
 
 daysArray3
-daysArray3.insert("水", atIndex: 2)
+//daysArray3.insert("水", atIndex: 2)
+daysArray3.insert("水", at: 2)
 
 
 // 辞書
@@ -182,7 +187,8 @@ scoreDic3
 scoreDic3["社会"] = 50
 scoreDic3
 
-scoreDic3.removeValueForKey("社会")
+//scoreDic3.removeValueForKey("社会")
+scoreDic3.removeValue(forKey: "社会")
 scoreDic3
 
 scoreDic3.removeAll()

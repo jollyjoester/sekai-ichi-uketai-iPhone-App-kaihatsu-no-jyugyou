@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1874A5C71E1C285000AC5B3A /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 1874A5C61E1C285000AC5B3A /* Icon */; };
 		9EE8419C1C10151300DBC46E /* SEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8419B1C10151300DBC46E /* SEManager.swift */; };
 		A4AE95D01BE620FE008C6A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE95CF1BE620FE008C6A3C /* AppDelegate.swift */; };
 		A4AE95D21BE620FE008C6A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE95D11BE620FE008C6A3C /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		A4AE95DA1BE620FE008C6A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95D81BE620FE008C6A3C /* LaunchScreen.storyboard */; };
 		A4AE95EF1BE62143008C6A3C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95E21BE62143008C6A3C /* background.png */; };
 		A4AE95F01BE62143008C6A3C /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95E31BE62143008C6A3C /* background@2x.png */; };
-		A4AE95F11BE62143008C6A3C /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95E41BE62143008C6A3C /* Icon */; };
 		A4AE95F21BE62143008C6A3C /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95E51BE62143008C6A3C /* wine.png */; };
 		A4AE95F31BE62143008C6A3C /* wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95E61BE62143008C6A3C /* wine@2x.png */; };
 		A4AE95F41BE62143008C6A3C /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95E81BE62143008C6A3C /* 1.mp3 */; };
@@ -24,10 +24,10 @@
 		A4AE95F71BE62143008C6A3C /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95EB1BE62143008C6A3C /* 4.mp3 */; };
 		A4AE95F81BE62143008C6A3C /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95EC1BE62143008C6A3C /* 5.mp3 */; };
 		A4AE95F91BE62143008C6A3C /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95ED1BE62143008C6A3C /* BGM.mp3 */; };
-		A4AE95FA1BE62143008C6A3C /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = A4AE95EE1BE62143008C6A3C /* Icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1874A5C61E1C285000AC5B3A /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		9EE8419B1C10151300DBC46E /* SEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEManager.swift; sourceTree = "<group>"; };
 		A4AE95CC1BE620FE008C6A3C /* WinePiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinePiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AE95CF1BE620FE008C6A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +38,6 @@
 		A4AE95DB1BE620FE008C6A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4AE95E21BE62143008C6A3C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		A4AE95E31BE62143008C6A3C /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
-		A4AE95E41BE62143008C6A3C /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		A4AE95E51BE62143008C6A3C /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine.png; sourceTree = "<group>"; };
 		A4AE95E61BE62143008C6A3C /* wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine@2x.png"; sourceTree = "<group>"; };
 		A4AE95E81BE62143008C6A3C /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
@@ -47,7 +46,6 @@
 		A4AE95EB1BE62143008C6A3C /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
 		A4AE95EC1BE62143008C6A3C /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
 		A4AE95ED1BE62143008C6A3C /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
-		A4AE95EE1BE62143008C6A3C /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +94,9 @@
 		A4AE95E11BE62143008C6A3C /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				1874A5C61E1C285000AC5B3A /* Icon */,
 				A4AE95E21BE62143008C6A3C /* background.png */,
 				A4AE95E31BE62143008C6A3C /* background@2x.png */,
-				A4AE95E41BE62143008C6A3C /* Icon */,
 				A4AE95E51BE62143008C6A3C /* wine.png */,
 				A4AE95E61BE62143008C6A3C /* wine@2x.png */,
 			);
@@ -114,7 +112,6 @@
 				A4AE95EB1BE62143008C6A3C /* 4.mp3 */,
 				A4AE95EC1BE62143008C6A3C /* 5.mp3 */,
 				A4AE95ED1BE62143008C6A3C /* BGM.mp3 */,
-				A4AE95EE1BE62143008C6A3C /* Icon */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -146,11 +143,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = KuwamuraHaruyoshi;
 				TargetAttributes = {
 					A4AE95CB1BE620FE008C6A3C = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -178,15 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AE95F61BE62143008C6A3C /* 3.mp3 in Resources */,
+				1874A5C71E1C285000AC5B3A /* Icon in Resources */,
 				A4AE95F81BE62143008C6A3C /* 5.mp3 in Resources */,
 				A4AE95F41BE62143008C6A3C /* 1.mp3 in Resources */,
 				A4AE95DA1BE620FE008C6A3C /* LaunchScreen.storyboard in Resources */,
 				A4AE95F71BE62143008C6A3C /* 4.mp3 in Resources */,
 				A4AE95EF1BE62143008C6A3C /* background.png in Resources */,
-				A4AE95FA1BE62143008C6A3C /* Icon in Resources */,
 				A4AE95D71BE620FE008C6A3C /* Assets.xcassets in Resources */,
 				A4AE95F31BE62143008C6A3C /* wine@2x.png in Resources */,
-				A4AE95F11BE62143008C6A3C /* Icon in Resources */,
 				A4AE95F01BE62143008C6A3C /* background@2x.png in Resources */,
 				A4AE95F51BE62143008C6A3C /* 2.mp3 in Resources */,
 				A4AE95F91BE62143008C6A3C /* BGM.mp3 in Resources */,
@@ -243,8 +240,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -287,8 +286,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -307,6 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -319,6 +321,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onTheHammock.WinePiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -330,6 +333,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onTheHammock.WinePiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
