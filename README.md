@@ -9,8 +9,7 @@ Swfit2までのサポートについては技術評論社による[サポート�
 # サンプルプロジェクトのダウンロード
 
 ## Swift3
-https://github.com/jollyjoester/sekai-ichi-uketai-iPhone-App-kaihatsu-no-jyugyou/archive/swift3.zip
-
+https://github.com/jollyjoester/sekai-ichi-uketai-iPhone-App-kaihatsu-no-jyugyou/archive/swift3.zip (約22.3MB)
 # お問い合わせ
 
 ご不明点等ございましたら[issue](https://github.com/jollyjoester/sekai-ichi-uketai-iPhone-App-kaihatsu-no-jyugyou/issues)への記載をお願いします。
